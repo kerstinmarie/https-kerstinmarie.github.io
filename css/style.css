@@ -518,7 +518,7 @@ Main
 ************/
 .main-portfolio{
     display: block;
-    padding: 10px 0 0 20px;
+    padding: 10px 0 0 30px;
     max-width: 1240px;
     margin: 70px auto 100px auto;
 }
@@ -528,6 +528,6 @@ Images
 .portfolio-image-one,
 .portfolio-image-two,
 .portfolio-image-three{
-    margin: 30px 0 0 82px;
+    margin: 20px 0 0 86px;
 }
 }

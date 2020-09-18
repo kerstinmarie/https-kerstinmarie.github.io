@@ -1,0 +1,533 @@
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+       display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+   quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/***********/
+input, button {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+/************
+Basic
+************/
+html{
+    font-size: 125%;
+    height: 100%;
+}	
+body{	
+	font-size: 50%;
+	background-color: #FDFDFD;
+	color: #061C0B;
+	font-family: 'Montserrat', Arial, Tahoma, san-serif;
+}
+h1,h2,h3{
+	font-family: 'Oswald', Arial, Tahoma, san-serif;
+	color: #176027;
+}
+h1{
+	font-size: 4em;
+    line-height: normal;
+    text-align: center;
+	font-weight: 600;
+}
+h2{
+	font-size: 3.4em; 
+    line-height: normal;
+    text-align: center;
+	font-weight: 600;
+}
+h3{
+	font-size: 2.8em; 
+    line-height: normal;
+    text-align: center;
+	font-weight: 600;
+}
+h4{ 
+	font-size: 1.3em;
+	line-height: 1.6em;
+    margin: 8px;
+	font-weight: 300;
+}
+p{
+	font-size: 1.5em;
+	line-height: 1.6em;	
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+/* För kommande grafiska element*/
+/*svg{
+    max-width: 100%;
+    height: auto;
+ }*/
+ .wrapper {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+/************
+Header och nav
+************/
+.page-header{
+	display: block;
+	width: 92%;
+	padding: 10px 4%;
+	height: auto;
+}
+.logo-keeeper{
+	max-width: 250px;
+	margin: 25px auto;
+}
+/* För kommande grafiska element*/
+/*.logotype{
+	width: 250px;
+	height: auto;
+}*/
+h2.logotext{
+    font-family: 'Montez', cursive;
+    text-align: center;
+    font-size: 5em;
+}
+header a {
+    text-decoration: none;
+}
+nav.nav-menu-desktop{
+	display: none;
+}
+nav.nav-menu-mobile {
+	margin: 0;
+	padding: 5px 0;
+	width: 100%;
+}
+nav.nav-menu-mobile ul li a{
+    display: block;
+    font-family: 'Oswald', Cambria, 'Times New Roman', serif;
+	font-size: 1.5em;
+	text-decoration: none;
+	text-align: center;
+	background-color: #176027;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-transform: uppercase;
+	margin: 5px 0;
+	padding: 6px 6px;
+	border-radius: 25px;
+	border: solid 1px #176027;
+	cursor: pointer;
+}
+nav.nav-menu-mobile ul li a:hover, 
+nav.nav-menu-mobile ul li a:focus{
+	border: solid 1px #176027;
+	background-color: #8B9B7F;
+	color: #FFFFFF;
+	font-size: 1.5em;	
+}
+nav.nav-menu-mobile a#current {
+	border: solid 1px #176027;
+	background-color: #8B9B7F;
+	color: #FFFFFF;
+	font-size: 1.5em;	
+}
+nav.nav-menu-mobile ul ul li a{
+	display: inline-block;
+	width: 39%;
+	font-size: 1.4em;
+	text-decoration: none;
+	text-align: center;
+	background-color: #FFFFFF;
+	color: #061C0B;
+	margin: 0 2% 3px 3%;
+	padding: 6px 6px;
+	border-radius: 25px;
+	border: 1px solid  #176027;
+	cursor: pointer;
+}
+/************
+Main
+************/
+.main-portfolio, .main{
+	display: block;
+	width: 92%;
+	padding: 10px 4%;
+    height: auto;
+	overflow: hidden;
+    clear: both;
+}
+.about{
+    margin-bottom: 30px;
+}
+.about p:first-of-type{
+    padding-top: 15px;
+}
+.main-header h1,
+.main-header h2{
+    text-transform: uppercase;
+}
+.ingress{
+    font-weight: 600;
+}
+.next{
+    margin-top: 20px;
+}
+.about ul li{
+    list-style: none;
+    font-size: 1.5em;
+	line-height: 1.6em;	
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+.about ul li.ingress{
+    font-weight: 600;
+}
+/************
+Images
+************/
+.portfolio-image-one,
+.portfolio-image-two,
+.portfolio-image-three{
+    margin: 30px 0 0 0;
+    border: 1px solid #061C0B;
+    text-decoration: none;
+}
+.portfolio-image-one a,
+.portfolio-image-two a,
+.portfolio-image-three a{
+    text-decoration: none;
+}
+.about-figure{
+    width: 250px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.portfolio-image-large{
+    display: none;
+}
+.portfolio-image-small{
+    width: 425px;
+    height: auto;
+    border-bottom: 1px solid #061C0B;
+}
+.about-image-large{
+    display: none;
+}
+.about-image-small{
+    width: 250px;
+    height: auto;
+}
+/************
+Footer
+************/
+.footer{
+	display: block;
+	width: 92%;
+	padding: 10px 4%;
+    height: auto;
+	margin: 30px 0;;
+}
+address.contact-address p:first-of-type{
+    font-family: 'Oswald', Cambria, 'Times New Roman', serif;
+    font-size: 2.2em;
+    line-height: normaL;
+    text-align: center;
+    margin: 0;
+}  
+address.contact-address p{
+    margin-bottom : 25px;
+}
+address.contact-address{
+	margin: 20px 0 20px 0;
+}
+address.contact-address p, 
+address.contact-address a{
+	line-height: 1.1em; 
+	font-weight: 600;
+	color: #176027;
+    text-align: center;
+}
+address.contact-address p{
+    font-size: 1.4em;
+    margin: 20px 0 8px 0;
+	font-weight: 600;
+}
+address.contact-address a{
+    font-size: 1em;
+}
+address.contact-address a:hover, 
+address.contact-address a:focus{
+	font-size: 1em;
+	line-height: 1.1em;
+	color: #27A543;
+}
+address.contact-address a:active{
+	color: #7bff82;
+}
+.footer-copyright{
+    font-style: italic;
+	font-weight: 300;
+	font-size: 1.4em;
+	line-height: 1.6em;
+	color:#061C0B;
+    margin-bottom: 0;
+    text-align: center;
+}
+@media screen and (min-width: 432px){
+.portfolio-image-one,
+.portfolio-image-two,
+.portfolio-image-three{
+    width: 425px;
+    margin: 50px auto;
+}
+}
+@media screen and (min-width: 480px){
+/************
+Header och nav
+************/
+.logo-keeeper{
+	max-width: 300px;
+	margin: 70px auto 50px auto;
+}
+h2.logotext{
+    font-size: 6em;
+}
+nav.nav-menu-mobile{
+    display: none;
+}
+nav.nav-menu-desktop {
+    clear: both;
+    display: block;
+    margin: 15px auto;
+    max-width: 480px;
+    padding: 0;
+    height: 50px;
+}
+nav.nav-menu-desktop ul{
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+}
+nav.nav-menu-desktop ul li{
+    float: left;
+    list-style-type: none;
+    border-right: 1px solid #176027;
+}
+nav.nav-menu-desktop ul li a{
+    display: inline-block;
+    font-family: 'Oswald', Cambria, 'Times New Roman', serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    text-decoration: none;
+    color: #176027;
+    padding: 15px 20px 15px 20px;
+    cursor: pointer;
+}
+nav.nav-menu-desktop ul li:last-child{
+    border-right: none;
+}
+nav.nav-menu-desktop ul li a:hover {
+    color: #27A543;	
+    font-size: 2.5em;	
+}
+nav.nav-menu-desktop a#current-menu {
+    color: #27A543;
+}
+}
+@media screen and (min-width:798px){
+/************
+Basik
+************/
+p{
+    font-size: 1.6em;
+    line-height: 1.6em;	
+    margin-bottom: 20px;
+}
+/************
+Main
+************/
+.main-portfolio{
+    margin: 50px auto; 
+}
+.portfolio-header{
+    margin: 0 auto 70px auto;
+}
+.main{
+    padding: 10px 0 0 0;
+    max-width: 798px;
+    margin: 50px auto;  
+}
+.about{
+    margin-bottom: 50px;
+}
+.about p{
+    padding: 0;
+}
+.about p:first-of-type{
+    padding-top: 30px;
+}
+.about ul li{
+    font-size: 1.6em;
+}
+/************
+Images
+************/
+.portfolio-image-one,
+.portfolio-image-two,
+.portfolio-image-three{
+    margin: 50px auto 0 auto;
+}
+.about-figure{
+    width: 500px;
+    margin: 0;
+    padding: 0;
+}
+.about-image-small{
+    display: none;
+}
+.about-image-large{
+    display: inline-table;
+    float: left;
+    width: 290px;
+    height: auto;
+    padding: 30px 40px 0 0;
+}
+}
+@media screen and (min-width:1024px){
+/************
+Basik
+************/
+h1{
+    font-size: 4.6em;
+}
+h2{
+    font-size: 4em; 
+}
+h3{
+    font-size: 3.4em; 
+}
+/************
+Header och nav
+************/
+.logo-keeeper{
+    max-width: 300px;
+    margin: 100px auto 50px auto;
+}
+h2.logotext{
+    font-size: 7em;
+}
+nav.nav-menu-desktop {
+   height: 60px;
+}
+nav.nav-menu-desktop ul{
+    width: 420px;
+    margin: 0 auto;
+    text-align: center;
+}
+nav.nav-menu-desktop ul li a{
+    font-size: 3em;
+    padding: 15px 25px 15px 25px;
+}
+nav.nav-menu-desktop ul li a:hover {
+    font-size: 3em;	
+}
+/************
+Main
+************/
+.portfolio-header{
+    width: 500px;
+    margin: 0 auto 100px auto;
+}
+/************
+Images
+************/
+.portfolio-image{
+    width: auto;
+    margin: 0 auto;
+}
+.portfolio-image-one,
+.portfolio-image-two,
+.portfolio-image-three{
+    width: 290px;
+    margin: 30px 20px 0 0;
+    float: left;
+}
+.portfolio-image-small{
+    display: none;
+}
+.portfolio-image-large{
+    display: inline-table;
+    width: 325px;
+    height: auto;
+    border-bottom: 1px solid #061C0B;
+}
+.footer{
+    clear: both;
+}
+}
+@media screen and (min-width:1200px){
+/************
+Main
+************/
+.main-portfolio{
+    display: block;
+    padding: 10px 0 0 20px;
+    max-width: 1240px;
+    margin: 70px auto 100px auto;
+}
+/************
+Images
+************/
+.portfolio-image-one,
+.portfolio-image-two,
+.portfolio-image-three{
+    margin: 30px 0 0 82px;
+}
+}

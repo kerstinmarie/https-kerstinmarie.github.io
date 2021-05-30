@@ -104,11 +104,10 @@ img{
     max-width: 100%;
     height: auto;
 }
-/* För kommande grafiska element*/
-/*svg{
+svg{
     max-width: 100%;
     height: auto;
- }*/
+ }
  .wrapper {
 	width: 100%;
 	height: auto;
@@ -124,18 +123,12 @@ Header och nav
 	height: auto;
 }
 .logo-keeeper{
-	max-width: 250px;
+	width: 225px;
 	margin: 25px auto;
 }
-/* För kommande grafiska element*/
-/*.logotype{
-	width: 250px;
+.logotype{
+	width: 225px;
 	height: auto;
-}*/
-h2.logotext{
-    font-family: 'Montez', cursive;
-    text-align: center;
-    font-size: 5em;
 }
 header a {
     text-decoration: none;

@@ -123,11 +123,11 @@ Header och nav
 	height: auto;
 }
 .logo-keeeper{
-	width: 225px;
+	width: 175px;
 	margin: 25px auto;
 }
 .logotype{
-	width: 225px;
+	width: 175px;
 	height: auto;
 }
 header a {
@@ -335,8 +335,11 @@ Header och nav
 	max-width: 300px;
 	margin: 70px auto 50px auto;
 }
-h2.logotext{
-    font-size: 6em;
+.logo-keeeper{
+	width: 200px;
+}
+.logotype{
+	width: 200px;
 }
 nav.nav-menu-mobile{
     display: none;
@@ -457,11 +460,12 @@ h3{
 Header och nav
 ************/
 .logo-keeeper{
-    max-width: 300px;
+	width: 225px;
     margin: 100px auto 50px auto;
 }
-h2.logotext{
-    font-size: 7em;
+.logotype{
+	width: 225px;
+	height: auto;
 }
 nav.nav-menu-desktop {
    height: 60px;

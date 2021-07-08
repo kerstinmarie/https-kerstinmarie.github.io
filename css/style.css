@@ -122,9 +122,9 @@ Header och nav
 	padding: 10px 4%;
 	height: auto;
 }
-.logo-keeeper{
+.logo-keeper{
 	width: 175px;
-	margin: 25px auto;
+	margin: 20px auto;
 }
 .logotype{
 	width: 175px;
@@ -331,11 +331,7 @@ address.contact-address a:active{
 /************
 Header och nav
 ************/
-.logo-keeeper{
-	max-width: 300px;
-	margin: 70px auto 50px auto;
-}
-.logo-keeeper{
+.logo-keeper{
 	width: 200px;
 }
 .logotype{
@@ -459,7 +455,7 @@ h3{
 /************
 Header och nav
 ************/
-.logo-keeeper{
+.logo-keeper{
 	width: 225px;
     margin: 100px auto 50px auto;
 }

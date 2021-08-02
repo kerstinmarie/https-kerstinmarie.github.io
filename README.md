@@ -9,7 +9,7 @@ Den skall innehålla:
 
 * En kort presentation
 * Bild
-* Lista mer arbetslivserfarenhet
+* Lista med arbetslivserfarenhet
 * Länkar till Github-profil, LinkedIn, mail-to och annat ni känner är viktigt
 
 https://kerstinmarie.github.io/ 
